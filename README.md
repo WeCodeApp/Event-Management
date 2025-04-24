@@ -11,7 +11,15 @@ proceed to localgost/phpmyadmin
 create a database first named eventmanagement
 import the eventmanagement.sql(located in the backend folder) file to the localhost/phpmyadmin 
 _____________________
-Note: Login Has a BackEnd Folder it mustbe connected to MySQL Localhost first, run first with terminal just like this "C:\Users\DNAng\Downloads\Event-Management-main (1)\Event-Management-main\eventmanagement\backend>node server.js" this depends where you download and save the project after, yoiu can Sign Up and Logged In.
+Note: The Login feature includes a backend folder that must be connected to MySQL on localhost.
+Before using the application, make sure to start the backend server via the terminal. For example:
 
+vbnet
+Copy
+Edit
+C:\Users\DNAng\Downloads\Event-Management-main (1)\Event-Management-main\eventmanagement\backend> node server.js
+(The exact path may vary depending on where you've saved the project.)
+
+After starting the server, you’ll be able to sign up and log in successfully.
 the Dashboard.vue is not yet conected to the database(static)
 
